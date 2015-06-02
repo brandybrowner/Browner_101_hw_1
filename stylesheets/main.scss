@@ -1,0 +1,39 @@
+$main-color: white;
+$main-width: 1008px;
+$bar-color: #ca3f02;
+
+
+#container{
+	width: $main-width;
+	background-color: $bar-color;
+}
+
+img {
+	padding: 20px;
+}
+
+header{
+	background-color: #ddcb7f;
+	height: 288px;
+}
+
+.left{
+	width: 528px;
+	height: 642px;
+	padding: 20px;
+	background-color: $main-color;
+	float: left;
+}
+
+
+.right{
+	width:400px;
+	height: 642px;
+	padding: 20px;
+	background-color: $main-color;
+	float: left;
+}
+
+@import 'nav'
+
+/*partial import has to be at the bottom of the file*/

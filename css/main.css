@@ -1,0 +1,32 @@
+#container {
+  width: 1008px;
+  background-color: #ca3f02; }
+
+img {
+  padding: 20px; }
+
+header {
+  background-color: #ddcb7f;
+  height: 288px; }
+
+.left {
+  width: 528px;
+  height: 642px;
+  padding: 20px;
+  background-color: white;
+  float: left; }
+
+.right {
+  width: 400px;
+  height: 642px;
+  padding: 20px;
+  background-color: white;
+  float: left; }
+
+.my-button {
+  padding: 20px;
+  color: #ddcb7f;
+  background-color: #ca3f02;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
